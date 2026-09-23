@@ -50,6 +50,23 @@ Key files responsible for the addon system:
 - Register: File types are mapped to addon instances
 - Dispatch: When `glyph_runner` detects a file type it uses `AddonManager.execute_with_addon()` to run the content
 
+```mermaid
+stateDiagram-v2
+    [*] --> Discovery
+    Discovery: Scan addons/ for *.py\n(skip __*.py)
+    Discovery --> Load
+    Load: Import module,\ninspect classes
+    Load --> Validate
+    Validate: Has name, version,\nsupported_file_types, execute?
+    Validate --> Skipped: no
+    Validate --> Register: yes
+    Register: Map file_type -> addon instance
+    Register --> Dispatch
+    Dispatch: glyph_runner routes decoded\ncontent to matching addon
+    Skipped --> [*]
+    Dispatch --> [*]
+```
+
 ### Addon Interface
 
 Addons should either subclass `BaseAddon` or provide the required interface:

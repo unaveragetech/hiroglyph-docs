@@ -40,6 +40,36 @@ The right framing is:
 | Implementation complexity | Lower | Higher |
 | Risk of regression | Lower in standard libs | Higher due to custom runtime and packaging paths |
 
+### At a glance
+
+```mermaid
+%%{init: {"themeVariables": {"pie1": "#6366f1", "pie2": "#22c55e"}}}%%
+pie showData title Public cryptanalysis effort (illustrative, not a metric)
+    "AES-256-GCM (decades of review, standardised, NIST/FIPS)" : 95
+    "Hiro custom SHA3-512 stream cipher (single project, no external review)" : 5
+```
+
+```mermaid
+flowchart LR
+    subgraph AES["Plain AES-256-GCM workflow"]
+        direction TB
+        A1["Ciphertext"] --> A2["Obviously encrypted\non disk"]
+        A2 --> A3["No system binding"]
+        A3 --> A4["No built-in execution"]
+    end
+    subgraph HIRO["Hiro workflow"]
+        direction TB
+        H1["Ciphertext"] --> H2["Hieroglyph-encoded\nlooks like art"]
+        H2 --> H3["Optional system binding"]
+        H3 --> H4["Built-in in-memory\nexecution + addons"]
+    end
+
+    style AES fill:#1a2740,stroke:#3b82f6,color:#fff
+    style HIRO fill:#2b2140,stroke:#8b5cf6,color:#fff
+```
+
+*Read this as: AES wins on primitive strength and review; Hiro wins on concealment and protected execution — they are not competing on the same axis.*
+
 ## Where Hiro Outshines a Plain AES Workflow
 
 ### 1. Concealment and presentation

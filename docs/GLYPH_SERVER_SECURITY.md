@@ -35,6 +35,38 @@ The server provides these capabilities:
 - addon support
   - supports extension types such as HTML, JavaScript, Java, Batch, and TypeScript
 
+```mermaid
+sequenceDiagram
+    actor C as Client
+    participant S as glyph_server.py
+    participant G as Rate limiter / token check
+    participant R as Runner + AddonManager
+
+    C->>S: POST /run\n{glyph, key_type, key, no_temp, system_vars, timeout}
+    S->>G: check X-Glyph-Token (constant-time compare)
+    alt token invalid
+        G-->>C: 401 Unauthorized
+    else token valid
+        G->>G: check per-IP rate limit
+        alt over limit
+            G-->>C: 429 Too Many Requests
+        else within limit
+            G->>G: check payload size
+            alt too large
+                G-->>C: 413 Payload Too Large
+            else within limit
+                Note over S: Serialized — one glyph\nruns at a time
+                S->>R: decode -> decrypt -> verify hash
+                R->>R: dispatch to addon by file type
+                R-->>S: exit_code, output, elapsed_ms
+                S-->>C: 200 OK {success, output, exit_code, ...}
+            end
+        end
+    end
+```
+
+*This is a live remote-code-execution endpoint by design. Every arrow above is a trust boundary — deploy it only behind network access control, with a strong token, and only for payloads you already trust.*
+
 What the demo shows
 -------------------
 

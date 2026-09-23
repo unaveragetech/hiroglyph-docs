@@ -89,6 +89,16 @@ bytes 4–19  → random salt    (16 bytes, 64 symbols + 8 parity)
 bytes 20+   → encrypted payload (variable length)
 ```
 
+```mermaid
+flowchart TB
+    subgraph glyph["Everything below is symbols on disk — no plaintext byte ever written"]
+        direction LR
+        M["magic\n\"HIR2\"\n4 bytes"] --> IV["random IV\n16 bytes"]
+        IV --> SALT["random salt\n16 bytes"]
+        SALT --> CT["AES ciphertext\nvariable length"]
+    end
+```
+
 Because each file uses a freshly generated salt, two glyphs encoded from the same plaintext with the same key look completely different:
 
 ```
