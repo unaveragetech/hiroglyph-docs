@@ -1,0 +1,118 @@
+# SDUC License (Small Dev Use Clause)
+
+**Copyright (c) 2024 Jesse Winghart**
+
+The SDUC License is intended to provide small developers and content creators with access to use, modify, and distribute the software under specific non-commercial conditions. Commercial use, though restricted, is allowed if proper attribution is given or, for high-revenue cases, a revenue-sharing arrangement is agreed upon. The license also outlines fair use allowances for educational, open-source, and non-profit purposes. This license protects the rights of the software’s original authors while encouraging innovation and responsible usage.
+
+---
+
+## Overview
+
+The SDUC License grants **non-commercial** permission to small developers and content creators for using, copying, modifying, and distributing the software. Commercial use is restricted and requires attribution or, for projects generating over $50,000 annually, a revenue share agreement. The SDUC License also includes **fair use** clauses for educational, open-source, and non-profit projects, provided attribution guidelines are met. Restrictions ensure ethical use by prohibiting resale and misrepresentation of authorship. The license is provided “as-is,” meaning no warranties are offered regarding the software.
+
+---
+
+## 1. Permitted Use (Non-Commercial)
+
+Small developers and content creators may freely **use**, **copy**, **modify**, **merge**, **publish**, and **distribute** the software for non-commercial, personal, or creative projects. Non-commercial use includes projects that do not generate financial gain from ads, sponsorships, or any other monetization method. Sublicensing or resale is permitted only if non-commercial conditions are upheld. Minor revenue, such as hobbyist project donations under $5,000 per year, is allowed and will not disqualify a project from this category.
+
+### Definition of Non-Commercial
+
+Non-commercial use refers to any project or application of the software that does not generate significant revenue, excluding minor income from hobbyist or donation-based sources. Revenue thresholds for non-commercial use are set under $5,000 annually. Any monetization, direct or indirect, such as from ads, sponsorships, or merchandise, may disqualify a project as non-commercial, requiring the developer to meet additional requirements under commercial use guidelines.
+
+### Definition of Small Developer
+
+A **small developer** is an individual or organization with fewer than 10 employees and less than $500,000 in annual revenue. Independent developers who work as hobbyists without significant revenue also fall under this category. Non-commercial small developers can freely distribute their modifications of the software under these conditions without requiring commercial licenses. If a project later meets commercial conditions, it may need to transition to commercial licensing, depending on revenue and use cases.
+
+---
+
+## 2. Production Use (Commercial)
+
+Commercial use of the software is restricted unless attribution is provided or a revenue share is agreed upon. This includes any use in business, product, or corporate settings where the software generates income, directly or indirectly. Commercial projects earning more than $50,000 annually without attribution must contribute a **5% revenue share** to the original authors. Attribution requirements apply to all production uses, with proper credit due to **Tcoder-beelzebub** and **The Infi Dev Team**.
+
+### Clarification on Commercial Use
+
+Commercial use includes any usage that generates financial gain, whether directly through sales, services, or subscriptions, or indirectly through advertisements, sponsorships, or affiliate links. Both internal and external use by businesses qualifies as commercial; this includes using the software as part of revenue-generating tools, products, or services. Personal or hobbyist projects that earn significant revenue may also be reclassified as commercial.
+
+### Clarification on Attribution
+
+Attribution for commercial use must be visibly displayed in project **documentation**, **product credits**, or a **public-facing page**. Within applications, it should appear on a **splash screen**, **footer**, or **settings page**. Websites must include attribution on an **About** or **Footer** page. Physical products should include attribution in packaging or accompanying materials. All attribution should reference **Tcoder-beelzebub** and **The Infi Dev Team** for proper credit.
+
+---
+
+## 3. Fair Use Clause
+
+Certain non-commercial uses qualify as fair use under the SDUC License. Educational, open-source, and non-profit or charitable projects may use the software freely provided that proper attribution is given. Educational uses include teaching, research, and academic purposes by both accredited institutions and informal platforms, such as educational YouTube channels. Open-source contributors may use parts of the software, and non-profits may use it without attribution if they align with non-commercial goals.
+
+### Educational Use
+
+Educational usage includes teaching, training, and research across accredited institutions, independent educators, and non-commercial educational platforms. Monetized educational platforms may use the software but must include proper attribution. Use cases must primarily be instructional and non-profit oriented to remain compliant with the license. Examples include university labs, coding boot camps, and online tutorials, all of which can use the software for free with correct attribution.
+
+### Open-Source Contributions
+
+Open-source projects may use portions of this software provided that contributions remain non-commercial, and proper attribution is given to **Tcoder-beelzebub** and **The Infi Dev Team**. Contributions to open-source projects should maintain transparency in acknowledging the software's original authors, and any derived open-source work must also comply with non-commercial guidelines unless reclassified under commercial use.
+
+### Non-Profit and Charity Work
+
+Non-profit and charitable organizations may use the software without restriction, provided that the project aligns with non-commercial objectives and is not monetized. Non-profit uses may include websites, community tools, and charity programs that do not generate income. Attribution is encouraged but not strictly required, particularly if the software is a minor component of a larger charitable initiative.
+
+---
+
+## 4. Restrictions
+
+Several restrictions apply to the software’s use to protect the authors’ rights and ensure ethical application:
+
+- **Commercial Use Without Attribution**: Any production use of the software without attributing **Tcoder-beelzebub** or **The Infi Dev Team** is prohibited. Commercial usage requires clear credit in all applicable places.
+
+- **Reselling as a Product**: The software cannot be sold as a standalone product or repackaged for sale. A **standalone product** is one that primarily consists of the software or a significant portion of its code. Using the software in minor or internal functions is allowed with attribution. Explicit permission is required to sell the software as a standalone product.
+
+- **Misrepresentation**: Users cannot misrepresent the software’s authorship. Credits must accurately reflect the original authorship, and any attempts to pass off the software as one’s own work violate this restriction. Transparent acknowledgment of the authors helps ensure ethical usage.
+
+- **Monetized Software Without Attribution**: If a project using the software generates over $50,000 annually without attribution, the developer or company must pay **Jesse Winghart** 5% of the total revenue generated. This payment is due within 90 days after the fiscal year concludes. Failure to meet these terms will result in license revocation, preventing further use of the software.
+
+---
+
+## 5. Attribution
+
+Attribution for commercial or production use must reference **Tcoder-beelzebub** and **The Infi Dev Team**. This attribution should be presented visibly and legibly in any project materials, whether physical or digital, that include or rely on the software.
+
+### Clarification on Format
+
+To ensure attribution is clear, it should not be hidden in terms and conditions or inaccessible sections. Visible, readable text should be used, matching the smallest font size in the relevant section. For software applications, attribution should appear in the **About** or **Credits** section, a splash screen, or startup screen. Websites should display attribution on an **About** or **Footer** page. Proper credit preserves transparency and acknowledges the original creators.
+
+---
+
+## 6. Disclaimer
+
+The software is provided **"as-is"** without any guarantees or warranties. The authors and copyright holders are not liable for damages, claims, or liabilities arising from the software’s use. The license excludes all implied warranties, including those of fitness for a specific purpose or merchantability. No guarantee is offered regarding the software’s performance, reliability, or applicability for any particular application.
+
+
+---
+
+## 7. Updates and Modifications
+
+Any updates, patches, or modifications made to the software by users must comply with the terms set forth in the SDUC License. Users are permitted to create modifications or adaptations of the software, but these modifications should not misrepresent the original software’s functionality or intent. Modifications may not disable or obscure attribution requirements, and any derivative works must still credit **Tcoder-beelzebub** and **The Infi Dev Team** if used in a commercial context. When distributing modified versions, users should clearly distinguish the original work from modifications, ensuring that recipients understand which elements belong to the original authors and which are user-generated changes.
+
+### Sharing Modifications
+
+Users may share modifications or enhancements to the software within the non-commercial and small developer context, provided they adhere to the SDUC License’s restrictions. Contributions to open-source repositories that incorporate modified software are also permitted. Commercial use of modifications is allowed only with proper attribution and adherence to revenue share requirements if applicable.
+
+---
+
+## 8. Redistribution
+
+Redistribution of the software, whether modified or unmodified, must meet the following criteria to remain in compliance with the SDUC License. Redistribution for non-commercial purposes is freely allowed, but users are prohibited from charging fees for the software itself. Redistribution that includes a fee must provide clear documentation that the fees are strictly for packaging, shipping, or other distribution-related expenses and not for profit. Commercial redistributors must meet attribution guidelines and revenue share requirements if the software contributes to revenue generation.
+
+### Redistribution in Packages
+
+Redistribution within software packages or collections is allowed if the software’s license terms are included with the distribution, ensuring transparency about its terms and conditions. For open-source and educational bundles, redistribution is also permitted as long as the software remains free and accessible. Commercial bundling is allowed under attribution terms, but any bundles that generate significant revenue must adhere to commercial use provisions, including potential revenue sharing with **Jesse Winghart**.
+
+---
+
+## 9. Termination and License Revocation
+
+Violation of any terms in this license may result in termination of the rights granted by the SDUC License. If a user violates non-commercial, attribution, or revenue share conditions, **Jesse Winghart** reserves the right to revoke the license, preventing further use, modification, or distribution of the software. Upon license termination, users must immediately cease any use of the software and delete all copies in their possession, including any modifications or derived works. License reinstatement requires express permission from the copyright holder.
+
+### Appeals and Compliance Review
+
+In cases of license revocation, users may appeal to **Jesse Winghart** for a compliance review. If the user can provide evidence of efforts to correct violations, the license may be reinstated under specific terms. Appeals are evaluated on a case-by-case basis, and reinstatement is not guaranteed. Compliance reviews will assess adherence to both the spirit and the letter of the SDUC License to determine eligibility for continued use.
